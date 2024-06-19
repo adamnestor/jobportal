@@ -164,7 +164,7 @@ public class JobSeekerProfile {
 	public String getPhotosImagePath() {
 		if (profilePhoto == null || userAccountId == null)
 			return null;
-		return "photos/candidate/" + userAccountId + "/" + profilePhoto;
+		return "/photos/candidate/" + userAccountId + "/" + profilePhoto;
 	}
 
 	@Override
